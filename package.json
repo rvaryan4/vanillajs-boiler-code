@@ -1,0 +1,28 @@
+{
+  "name": "boilerplate-vanillajs",
+  "version": "1.0.0",
+  "description": "can be used for vanilla js development",
+  "main": "index.js",
+  "scripts": {
+    "dev": "rm -rf ./development && rm -rf ./.cache && parcel public/index.html --out-dir development -p 3000",
+    "build": "parcel build public/index.html --out-dir dist --public-url ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rvaryan4/vanillajs-boiler-code.git"
+  },
+  "author": "ravi kumar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rvaryan4/vanillajs-boiler-code/issues"
+  },
+  "homepage": "https://github.com/rvaryan4/vanillajs-boiler-code#readme",
+  "devDependencies": {
+    "@babel/core": "^7.11.1",
+    "@babel/plugin-transform-runtime": "^7.11.0",
+    "@babel/runtime-corejs2": "^7.11.2",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.26.10"
+  }
+}
