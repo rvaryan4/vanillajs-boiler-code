@@ -5,3 +5,16 @@
         color: #fff;
         font-size : 18px;
     }
+
+    .container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+    .controls {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        height: 100%;
+      }
