@@ -6,8 +6,16 @@
         font-size : 18px;
     }
 
-    .container{
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(3, 1fr);
+    @supports(grid-area: true) {    
+        .container{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(3, 1fr);
+        }
     }
+    .container > *{
+        width: 100%;
+        float: left;
+    }
+
+
