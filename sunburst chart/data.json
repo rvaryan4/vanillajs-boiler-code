@@ -1,0 +1,1097 @@
+{
+  "name": "AI Use Cases",
+  "children": [
+    {
+      "name": "Retail",
+      "children": [
+        {
+          "name": "Customer Service",
+          "children": [
+            {
+              "name": "Chat Support",
+              "children": [
+                {
+                  "name": "AI Chatbot for Returns",
+                  "value": 1,
+                  "technology": "Generative AI",
+                  "description": "Handles customer return inquiries with natural language processing.",
+                  "business_value": "Reduces return processing time by 50%."
+                },
+                {
+                  "name": "Voice Assistant for Orders",
+                  "value": 1,
+                  "technology": "Generative AI",
+                  "description": "Voice-based order assistance for customers.",
+                  "business_value": "Improves order accuracy by 30%."
+                }
+              ]
+            },
+            {
+              "name": "Personalization",
+              "children": [
+                {
+                  "name": "Recommendation Engine",
+                  "value": 1,
+                  "technology": "Machine Learning",
+                  "description": "Personalizes product recommendations based on browsing history.",
+                  "business_value": "Increases sales by 25%."
+                },
+                {
+                  "name": "Dynamic Pricing",
+                  "value": 1,
+                  "technology": "Machine Learning",
+                  "description": "Adjusts prices in real-time based on demand and inventory.",
+                  "business_value": "Optimizes revenue by 15%."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Operations",
+          "children": [
+            {
+              "name": "Inventory Management",
+              "children": [
+                {
+                  "name": "Stock Prediction",
+                  "value": 1,
+                  "technology": "Machine Learning",
+                  "description": "Predicts stock levels using sales data.",
+                  "business_value": "Reduces stockouts by 40%."
+                },
+                {
+                  "name": "Automated Reordering",
+                  "value": 1,
+                  "technology": "Machine Learning",
+                  "description": "Automatically reorders products when stock is low.",
+                  "business_value": "Cuts manual labor by 60%."
+                }
+              ]
+            },
+            {
+              "name": "Supply Chain",
+              "children": [
+                {
+                  "name": "Supplier Optimization",
+                  "value": 1,
+                  "technology": "Machine Learning",
+                  "description": "Optimizes supplier selection based on performance.",
+                  "business_value": "Lowers costs by 20%."
+                },
+                {
+                  "name": "Delivery Tracking",
+                  "value": 1,
+                  "technology": "Machine Learning",
+                  "description": "Tracks and predicts delivery times.",
+                  "business_value": "Improves customer satisfaction by 35%."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Manufacturing",
+      "children": [
+        {
+          "name": "Production",
+          "children": [
+            {
+              "name": "Quality Control",
+              "children": [
+                {
+                  "name": "Defect Detection",
+                  "value": 1,
+                  "technology": "Machine Learning",
+                  "description": "Uses vision AI to detect defects in products.",
+                  "business_value": "Reduces defects by 50%."
+                },
+                {
+                  "name": "Process Optimization",
+                  "value": 1,
+                  "technology": "Machine Learning",
+                  "description": "Optimizes manufacturing processes for efficiency.",
+                  "business_value": "Increases output by 25%."
+                }
+              ]
+            },
+            {
+              "name": "Automation",
+              "children": [
+                {
+                  "name": "Robotic Assembly",
+                  "value": 1,
+                  "technology": "Machine Learning",
+                  "description": "AI-guided robotic assembly lines.",
+                  "business_value": "Speeds up production by 40%."
+                },
+                {
+                  "name": "Predictive Maintenance",
+                  "value": 1,
+                  "technology": "Machine Learning",
+                  "description": "Predicts equipment failures.",
+                  "business_value": "Reduces downtime by 30%."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Supply Chain",
+          "children": [
+            {
+              "name": "Demand Forecasting",
+              "children": [
+                {
+                  "name": "Sales Prediction",
+                  "value": 1,
+                  "technology": "Machine Learning",
+                  "description": "Forecasts demand based on market trends.",
+                  "business_value": "Improves inventory management by 35%."
+                },
+                {
+                  "name": "Supplier Risk Assessment",
+                  "value": 1,
+                  "technology": "Machine Learning",
+                  "description": "Assesses risks in the supply chain.",
+                  "business_value": "Mitigates disruptions by 45%."
+                }
+              ]
+            },
+            {
+              "name": "Logistics",
+              "children": [
+                {
+                  "name": "Route Optimization",
+                  "value": 1,
+                  "technology": "Machine Learning",
+                  "description": "Optimizes delivery routes.",
+                  "business_value": "Reduces fuel costs by 20%."
+                },
+                {
+                  "name": "Warehouse Automation",
+                  "value": 1,
+                  "technology": "Machine Learning",
+                  "description": "Automates warehouse operations.",
+                  "business_value": "Increases efficiency by 50%."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Finance",
+      "children": [
+        {
+          "name": "Risk Management",
+          "children": [
+            {
+              "name": "Fraud Detection",
+              "children": [
+                {
+                  "name": "Transaction Monitoring",
+                  "value": 1,
+                  "technology": "Machine Learning",
+                  "description": "Monitors transactions for fraudulent activity.",
+                  "business_value": "Prevents losses up to $1B annually."
+                },
+                {
+                  "name": "Credit Scoring",
+                  "value": 1,
+                  "technology": "Machine Learning",
+                  "description": "Improves credit risk assessment.",
+                  "business_value": "Reduces default rates by 25%."
+                }
+              ]
+            },
+            {
+              "name": "Compliance",
+              "children": [
+                {
+                  "name": "Regulatory Reporting",
+                  "value": 1,
+                  "technology": "Generative AI",
+                  "description": "Automates regulatory report generation.",
+                  "business_value": "Speeds up reporting by 70%."
+                },
+                {
+                  "name": "AML Monitoring",
+                  "value": 1,
+                  "technology": "Machine Learning",
+                  "description": "Monitors for anti-money laundering.",
+                  "business_value": "Enhances compliance accuracy by 40%."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Investment",
+          "children": [
+            {
+              "name": "Portfolio Management",
+              "children": [
+                {
+                  "name": "Asset Allocation",
+                  "value": 1,
+                  "technology": "Machine Learning",
+                  "description": "Optimizes asset allocation.",
+                  "business_value": "Increases returns by 15%."
+                },
+                {
+                  "name": "Risk Analysis",
+                  "value": 1,
+                  "technology": "Machine Learning",
+                  "description": "Analyzes portfolio risks.",
+                  "business_value": "Reduces volatility by 20%."
+                }
+              ]
+            },
+            {
+              "name": "Trading",
+              "children": [
+                {
+                  "name": "Algorithmic Trading",
+                  "value": 1,
+                  "technology": "Machine Learning",
+                  "description": "Executes trades using algorithms.",
+                  "business_value": "Improves trade timing by 30%."
+                },
+                {
+                  "name": "Market Prediction",
+                  "value": 1,
+                  "technology": "Machine Learning",
+                  "description": "Predicts market movements.",
+                  "business_value": "Boosts profits by 25%."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Healthcare",
+      "children": [
+        {
+          "name": "Clinical",
+          "children": [
+            {
+              "name": "Diagnosis",
+              "children": [
+                {
+                  "name": "Image Analysis",
+                  "value": 1,
+                  "technology": "Machine Learning",
+                  "description": "Analyzes medical images for diagnosis.",
+                  "business_value": "Improves accuracy by 30%."
+                },
+                {
+                  "name": "Symptom Checker",
+                  "value": 1,
+                  "technology": "Generative AI",
+                  "description": "AI-powered symptom assessment.",
+                  "business_value": "Speeds up triage by 50%."
+                }
+              ]
+            },
+            {
+              "name": "Treatment",
+              "children": [
+                {
+                  "name": "Personalized Medicine",
+                  "value": 1,
+                  "technology": "Machine Learning",
+                  "description": "Tailors treatments to patients.",
+                  "business_value": "Enhances outcomes by 25%."
+                },
+                {
+                  "name": "Drug Discovery",
+                  "value": 1,
+                  "technology": "Machine Learning",
+                  "description": "Accelerates drug development.",
+                  "business_value": "Reduces time to market by 40%."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Operations",
+          "children": [
+            {
+              "name": "Patient Management",
+              "children": [
+                {
+                  "name": "Appointment Scheduling",
+                  "value": 1,
+                  "technology": "Generative AI",
+                  "description": "AI schedules appointments efficiently.",
+                  "business_value": "Reduces no-shows by 20%."
+                },
+                {
+                  "name": "Patient Monitoring",
+                  "value": 1,
+                  "technology": "Machine Learning",
+                  "description": "Monitors patient vitals remotely.",
+                  "business_value": "Improves care quality by 35%."
+                }
+              ]
+            },
+            {
+              "name": "Administration",
+              "children": [
+                {
+                  "name": "Billing Automation",
+                  "value": 1,
+                  "technology": "Machine Learning",
+                  "description": "Automates billing processes.",
+                  "business_value": "Cuts errors by 60%."
+                },
+                {
+                  "name": "Resource Allocation",
+                  "value": 1,
+                  "technology": "Machine Learning",
+                  "description": "Optimizes hospital resources.",
+                  "business_value": "Increases efficiency by 30%."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Logistics",
+      "children": [
+        {
+          "name": "Transportation",
+          "children": [
+            {
+              "name": "Route Planning",
+              "children": [
+                {
+                  "name": "Dynamic Routing",
+                  "value": 1,
+                  "technology": "Machine Learning",
+                  "description": "Adjusts routes in real-time.",
+                  "business_value": "Reduces delays by 25%."
+                },
+                {
+                  "name": "Fleet Management",
+                  "value": 1,
+                  "technology": "Machine Learning",
+                  "description": "Manages vehicle fleets efficiently.",
+                  "business_value": "Lowers costs by 15%."
+                }
+              ]
+            },
+            {
+              "name": "Tracking",
+              "children": [
+                {
+                  "name": "GPS Monitoring",
+                  "value": 1,
+                  "technology": "Machine Learning",
+                  "description": "Tracks shipments via GPS.",
+                  "business_value": "Improves visibility by 40%."
+                },
+                {
+                  "name": "Predictive ETA",
+                  "value": 1,
+                  "technology": "Machine Learning",
+                  "description": "Predicts arrival times.",
+                  "business_value": "Enhances customer trust by 30%."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Warehousing",
+          "children": [
+            {
+              "name": "Inventory Control",
+              "children": [
+                {
+                  "name": "Automated Counting",
+                  "value": 1,
+                  "technology": "Machine Learning",
+                  "description": "Counts inventory automatically.",
+                  "business_value": "Reduces manual work by 70%."
+                },
+                {
+                  "name": "Stock Level Alerts",
+                  "value": 1,
+                  "technology": "Machine Learning",
+                  "description": "Alerts for low stock levels.",
+                  "business_value": "Prevents stockouts by 50%."
+                }
+              ]
+            },
+            {
+              "name": "Picking",
+              "children": [
+                {
+                  "name": "Optimized Picking",
+                  "value": 1,
+                  "technology": "Machine Learning",
+                  "description": "Optimizes order picking paths.",
+                  "business_value": "Speeds up fulfillment by 35%."
+                },
+                {
+                  "name": "Error Reduction",
+                  "value": 1,
+                  "technology": "Machine Learning",
+                  "description": "Reduces picking errors.",
+                  "business_value": "Improves accuracy by 45%."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Human Resources",
+      "children": [
+        {
+          "name": "Recruitment",
+          "children": [
+            {
+              "name": "Candidate Screening",
+              "children": [
+                {
+                  "name": "Resume Analysis",
+                  "value": 1,
+                  "technology": "Generative AI",
+                  "description": "Analyzes resumes for suitability.",
+                  "business_value": "Speeds up hiring by 40%."
+                },
+                {
+                  "name": "Interview Scheduling",
+                  "value": 1,
+                  "technology": "Generative AI",
+                  "description": "Automates interview scheduling.",
+                  "business_value": "Reduces administrative time by 50%."
+                }
+              ]
+            },
+            {
+              "name": "Talent Acquisition",
+              "children": [
+                {
+                  "name": "Job Matching",
+                  "value": 1,
+                  "technology": "Machine Learning",
+                  "description": "Matches candidates to jobs.",
+                  "business_value": "Improves hire quality by 25%."
+                },
+                {
+                  "name": "Diversity Monitoring",
+                  "value": 1,
+                  "technology": "Machine Learning",
+                  "description": "Ensures diverse hiring.",
+                  "business_value": "Enhances workplace diversity by 30%."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Employee Management",
+          "children": [
+            {
+              "name": "Performance Tracking",
+              "children": [
+                {
+                  "name": "Feedback Analysis",
+                  "value": 1,
+                  "technology": "Generative AI",
+                  "description": "Analyzes employee feedback.",
+                  "business_value": "Improves engagement by 20%."
+                },
+                {
+                  "name": "Goal Setting",
+                  "value": 1,
+                  "technology": "Generative AI",
+                  "description": "Assists in setting performance goals.",
+                  "business_value": "Aligns objectives by 35%."
+                }
+              ]
+            },
+            {
+              "name": "Training",
+              "children": [
+                {
+                  "name": "Personalized Learning",
+                  "value": 1,
+                  "technology": "Machine Learning",
+                  "description": "Tailors training programs.",
+                  "business_value": "Boosts skill development by 40%."
+                },
+                {
+                  "name": "Compliance Training",
+                  "value": 1,
+                  "technology": "Generative AI",
+                  "description": "Delivers compliance training.",
+                  "business_value": "Ensures regulatory adherence by 50%."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Legal",
+      "children": [
+        {
+          "name": "Contract Management",
+          "children": [
+            {
+              "name": "Document Review",
+              "children": [
+                {
+                  "name": "Clause Extraction",
+                  "value": 1,
+                  "technology": "Generative AI",
+                  "description": "Extracts key clauses from contracts.",
+                  "business_value": "Accelerates review by 60%."
+                },
+                {
+                  "name": "Risk Assessment",
+                  "value": 1,
+                  "technology": "Generative AI",
+                  "description": "Assesses contractual risks.",
+                  "business_value": "Reduces legal exposure by 30%."
+                }
+              ]
+            },
+            {
+              "name": "Negotiation",
+              "children": [
+                {
+                  "name": "AI Negotiation Assistant",
+                  "value": 1,
+                  "technology": "Generative AI",
+                  "description": "Assists in contract negotiations.",
+                  "business_value": "Improves terms by 25%."
+                },
+                {
+                  "name": "Template Generation",
+                  "value": 1,
+                  "technology": "Generative AI",
+                  "description": "Generates contract templates.",
+                  "business_value": "Speeds up drafting by 70%."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Compliance",
+          "children": [
+            {
+              "name": "Regulatory Monitoring",
+              "children": [
+                {
+                  "name": "Law Tracking",
+                  "value": 1,
+                  "technology": "Generative AI",
+                  "description": "Monitors changes in laws.",
+                  "business_value": "Ensures compliance by 40%."
+                },
+                {
+                  "name": "Audit Automation",
+                  "value": 1,
+                  "technology": "Machine Learning",
+                  "description": "Automates compliance audits.",
+                  "business_value": "Reduces audit time by 50%."
+                }
+              ]
+            },
+            {
+              "name": "Litigation Support",
+              "children": [
+                {
+                  "name": "Case Prediction",
+                  "value": 1,
+                  "technology": "Machine Learning",
+                  "description": "Predicts litigation outcomes.",
+                  "business_value": "Improves strategy by 35%."
+                },
+                {
+                  "name": "Document Discovery",
+                  "value": 1,
+                  "technology": "Generative AI",
+                  "description": "Assists in document discovery.",
+                  "business_value": "Speeds up process by 60%."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Energy",
+      "children": [
+        {
+          "name": "Production",
+          "children": [
+            {
+              "name": "Resource Optimization",
+              "children": [
+                {
+                  "name": "Demand Forecasting",
+                  "value": 1,
+                  "technology": "Machine Learning",
+                  "description": "Forecasts energy demand.",
+                  "business_value": "Optimizes production by 25%."
+                },
+                {
+                  "name": "Grid Management",
+                  "value": 1,
+                  "technology": "Machine Learning",
+                  "description": "Manages energy grids.",
+                  "business_value": "Reduces outages by 30%."
+                }
+              ]
+            },
+            {
+              "name": "Renewables",
+              "children": [
+                {
+                  "name": "Solar Prediction",
+                  "value": 1,
+                  "technology": "Machine Learning",
+                  "description": "Predicts solar energy output.",
+                  "business_value": "Increases efficiency by 20%."
+                },
+                {
+                  "name": "Wind Optimization",
+                  "value": 1,
+                  "technology": "Machine Learning",
+                  "description": "Optimizes wind farm operations.",
+                  "business_value": "Boosts output by 15%."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Distribution",
+          "children": [
+            {
+              "name": "Smart Meters",
+              "children": [
+                {
+                  "name": "Usage Monitoring",
+                  "value": 1,
+                  "technology": "Machine Learning",
+                  "description": "Monitors energy usage.",
+                  "business_value": "Reduces waste by 25%."
+                },
+                {
+                  "name": "Billing Automation",
+                  "value": 1,
+                  "technology": "Machine Learning",
+                  "description": "Automates billing.",
+                  "business_value": "Cuts costs by 40%."
+                }
+              ]
+            },
+            {
+              "name": "Maintenance",
+              "children": [
+                {
+                  "name": "Predictive Repairs",
+                  "value": 1,
+                  "technology": "Machine Learning",
+                  "description": "Predicts equipment failures.",
+                  "business_value": "Minimizes downtime by 35%."
+                },
+                {
+                  "name": "Asset Tracking",
+                  "value": 1,
+                  "technology": "Machine Learning",
+                  "description": "Tracks energy assets.",
+                  "business_value": "Improves maintenance by 30%."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Education",
+      "children": [
+        {
+          "name": "Teaching",
+          "children": [
+            {
+              "name": "Personalized Learning",
+              "children": [
+                {
+                  "name": "Adaptive Curriculum",
+                  "value": 1,
+                  "technology": "Machine Learning",
+                  "description": "Adapts lessons to student needs.",
+                  "business_value": "Improves learning outcomes by 30%."
+                },
+                {
+                  "name": "Content Generation",
+                  "value": 1,
+                  "technology": "Generative AI",
+                  "description": "Generates educational content.",
+                  "business_value": "Speeds up content creation by 50%."
+                }
+              ]
+            },
+            {
+              "name": "Assessment",
+              "children": [
+                {
+                  "name": "Automated Grading",
+                  "value": 1,
+                  "technology": "Machine Learning",
+                  "description": "Grades assignments automatically.",
+                  "business_value": "Reduces teacher workload by 40%."
+                },
+                {
+                  "name": "Progress Tracking",
+                  "value": 1,
+                  "technology": "Machine Learning",
+                  "description": "Tracks student progress.",
+                  "business_value": "Enhances feedback by 25%."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Administration",
+          "children": [
+            {
+              "name": "Enrollment",
+              "children": [
+                {
+                  "name": "Application Processing",
+                  "value": 1,
+                  "technology": "Generative AI",
+                  "description": "Processes student applications.",
+                  "business_value": "Speeds up enrollment by 60%."
+                },
+                {
+                  "name": "Recommendation System",
+                  "value": 1,
+                  "technology": "Machine Learning",
+                  "description": "Recommends courses to students.",
+                  "business_value": "Increases satisfaction by 35%."
+                }
+              ]
+            },
+            {
+              "name": "Resource Management",
+              "children": [
+                {
+                  "name": "Scheduling",
+                  "value": 1,
+                  "technology": "Machine Learning",
+                  "description": "Optimizes class schedules.",
+                  "business_value": "Improves resource use by 30%."
+                },
+                {
+                  "name": "Budget Analysis",
+                  "value": 1,
+                  "technology": "Machine Learning",
+                  "description": "Analyzes educational budgets.",
+                  "business_value": "Optimizes spending by 20%."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Government",
+      "children": [
+        {
+          "name": "Public Services",
+          "children": [
+            {
+              "name": "Citizen Support",
+              "children": [
+                {
+                  "name": "Virtual Assistants",
+                  "value": 1,
+                  "technology": "Generative AI",
+                  "description": "Provides citizen assistance.",
+                  "business_value": "Improves service delivery by 40%."
+                },
+                {
+                  "name": "Document Processing",
+                  "value": 1,
+                  "technology": "Machine Learning",
+                  "description": "Processes government documents.",
+                  "business_value": "Reduces processing time by 50%."
+                }
+              ]
+            },
+            {
+              "name": "Policy Analysis",
+              "children": [
+                {
+                  "name": "Data Insights",
+                  "value": 1,
+                  "technology": "Machine Learning",
+                  "description": "Analyzes policy data.",
+                  "business_value": "Informs better decisions by 30%."
+                },
+                {
+                  "name": "Impact Prediction",
+                  "value": 1,
+                  "technology": "Machine Learning",
+                  "description": "Predicts policy impacts.",
+                  "business_value": "Enhances planning by 25%."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Security",
+          "children": [
+            {
+              "name": "Surveillance",
+              "children": [
+                {
+                  "name": "Anomaly Detection",
+                  "value": 1,
+                  "technology": "Machine Learning",
+                  "description": "Detects security anomalies.",
+                  "business_value": "Prevents incidents by 35%."
+                },
+                {
+                  "name": "Threat Analysis",
+                  "value": 1,
+                  "technology": "Machine Learning",
+                  "description": "Analyzes security threats.",
+                  "business_value": "Improves response by 40%."
+                }
+              ]
+            },
+            {
+              "name": "Compliance",
+              "children": [
+                {
+                  "name": "Regulatory Monitoring",
+                  "value": 1,
+                  "technology": "Generative AI",
+                  "description": "Monitors regulations.",
+                  "business_value": "Ensures adherence by 50%."
+                },
+                {
+                  "name": "Audit Automation",
+                  "value": 1,
+                  "technology": "Machine Learning",
+                  "description": "Automates security audits.",
+                  "business_value": "Reduces audit time by 60%."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Real Estate",
+      "children": [
+        {
+          "name": "Property Management",
+          "children": [
+            {
+              "name": "Tenant Screening",
+              "children": [
+                {
+                  "name": "Background Checks",
+                  "value": 1,
+                  "technology": "Machine Learning",
+                  "description": "Automates tenant screening.",
+                  "business_value": "Speeds up process by 70%."
+                },
+                {
+                  "name": "Risk Assessment",
+                  "value": 1,
+                  "technology": "Machine Learning",
+                  "description": "Assesses tenant risks.",
+                  "business_value": "Reduces defaults by 25%."
+                }
+              ]
+            },
+            {
+              "name": "Maintenance",
+              "children": [
+                {
+                  "name": "Predictive Repairs",
+                  "value": 1,
+                  "technology": "Machine Learning",
+                  "description": "Predicts property maintenance needs.",
+                  "business_value": "Lowers costs by 30%."
+                },
+                {
+                  "name": "Work Order Automation",
+                  "value": 1,
+                  "technology": "Machine Learning",
+                  "description": "Automates maintenance requests.",
+                  "business_value": "Improves response time by 40%."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Sales",
+          "children": [
+            {
+              "name": "Market Analysis",
+              "children": [
+                {
+                  "name": "Price Prediction",
+                  "value": 1,
+                  "technology": "Machine Learning",
+                  "description": "Predicts property prices.",
+                  "business_value": "Optimizes pricing by 20%."
+                },
+                {
+                  "name": "Trend Analysis",
+                  "value": 1,
+                  "technology": "Machine Learning",
+                  "description": "Analyzes market trends.",
+                  "business_value": "Informs strategies by 35%."
+                }
+              ]
+            },
+            {
+              "name": "Virtual Tours",
+              "children": [
+                {
+                  "name": "AI Tour Guides",
+                  "value": 1,
+                  "technology": "Generative AI",
+                  "description": "Provides virtual property tours.",
+                  "business_value": "Increases viewings by 50%."
+                },
+                {
+                  "name": "Customization",
+                  "value": 1,
+                  "technology": "Generative AI",
+                  "description": "Customizes tour experiences.",
+                  "business_value": "Enhances engagement by 30%."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Entertainment",
+      "children": [
+        {
+          "name": "Content Creation",
+          "children": [
+            {
+              "name": "Script Writing",
+              "children": [
+                {
+                  "name": "AI Script Generation",
+                  "value": 1,
+                  "technology": "Generative AI",
+                  "description": "Generates scripts for media.",
+                  "business_value": "Speeds up production by 40%."
+                },
+                {
+                  "name": "Idea Brainstorming",
+                  "value": 1,
+                  "technology": "Generative AI",
+                  "description": "Brainstorms creative ideas.",
+                  "business_value": "Boosts creativity by 25%."
+                }
+              ]
+            },
+            {
+              "name": "Video Editing",
+              "children": [
+                {
+                  "name": "Automated Editing",
+                  "value": 1,
+                  "technology": "Machine Learning",
+                  "description": "Edits videos automatically.",
+                  "business_value": "Reduces editing time by 50%."
+                },
+                {
+                  "name": "Content Optimization",
+                  "value": 1,
+                  "technology": "Machine Learning",
+                  "description": "Optimizes content for engagement.",
+                  "business_value": "Increases views by 30%."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Audience Engagement",
+          "children": [
+            {
+              "name": "Personalization",
+              "children": [
+                {
+                  "name": "Recommendation Engines",
+                  "value": 1,
+                  "technology": "Machine Learning",
+                  "description": "Recommends content to users.",
+                  "business_value": "Improves retention by 35%."
+                },
+                {
+                  "name": "Dynamic Content",
+                  "value": 1,
+                  "technology": "Generative AI",
+                  "description": "Creates dynamic content.",
+                  "business_value": "Enhances user experience by 40%."
+                }
+              ]
+            },
+            {
+              "name": "Analytics",
+              "children": [
+                {
+                  "name": "Viewer Insights",
+                  "value": 1,
+                  "technology": "Machine Learning",
+                  "description": "Analyzes viewer behavior.",
+                  "business_value": "Informs content strategy by 45%."
+                },
+                {
+                  "name": "Performance Prediction",
+                  "value": 1,
+                  "technology": "Machine Learning",
+                  "description": "Predicts content performance.",
+                  "business_value": "Optimizes releases by 30%."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

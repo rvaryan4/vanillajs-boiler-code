@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Use Case Compass</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+    <div class="app">
+        <!-- Left Panel: Filters -->
+        <aside class="left-panel">
+            <h2>Filters</h2>
+            <div class="filter-group">
+                <label>Industry</label>
+                <div class="filter-options" id="industry-filters"></div>
+            </div>
+            <div class="filter-group">
+                <label>Function</label>
+                <div class="filter-options" id="function-filters"></div>
+            </div>
+            <div class="filter-group">
+                <label>Technology</label>
+                <div class="filter-options" id="technology-filters"></div>
+            </div>
+            <div class="filter-group">
+                <input type="text" id="search" placeholder="Search use cases...">
+            </div>
+            <button id="reset-filters">Reset Filters</button>
+            <div class="legend">
+                <h3>Legend</h3>
+                <div id="legend-items"></div>
+            </div>
+            <div class="count">
+                <span id="visible-count">0</span> use cases visible
+            </div>
+        </aside>
+
+        <!-- Center: Sunburst Visualization -->
+        <main class="center-panel">
+            <svg id="sunburst-svg"></svg>
+        </main>
+    </div>
+
+    <!-- Details Modal -->
+    <div id="details-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 id="modal-title"></h2>
+            <p id="modal-description"></p>
+            <div class="modal-tags">
+                <span id="modal-technology" class="tag"></span>
+            </div>
+            <div><strong>Business Value:</strong> <span id="modal-value"></span></div>
+            <div id="modal-actions" class="modal-actions"></div>
+        </div>
+    </div>
+
+    <!-- Dark Mode Toggle -->
+    <div id="tooltip" class="tooltip"></div>
+    <button id="dark-mode-toggle" class="dark-toggle">🌙</button>
+
+    <script src="app.js"></script>
+</body>
+</html>
